@@ -1,12 +1,15 @@
-function task(str){
+function question(str){
     return str + "???";
 }
 
-const result1 = task("Hello");
-result1;
+let result1 = question('Hello');
+let result2 = question('what even');
 
-const result2 = task ('what even');
+result1;
 result2;
+
+
+
 
 function task(str, str1){
     return str + " " + str1;
@@ -37,3 +40,13 @@ email;
 const best = triple('is the best');
 best;
 
+function square(num){
+    return Math.sqrt(num)
+}
+
+root1 = square(16);
+root1;
+root2 = square(4)
+root2;
+root3 = square(9)
+root3;
