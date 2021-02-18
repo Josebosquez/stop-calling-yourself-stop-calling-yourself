@@ -16,3 +16,16 @@ const task1 = task('oh', 'hi')
 task1;
 const task2 = task('well', 'hello back')
 task2;
+
+function subtractThree(num, num1, num2){
+    return num - num1 - num2;
+}
+
+const first = subtractThree(10, 1, 2)
+first;
+const second = subtractThree(8, 3, 5)
+second;
+const third = subtractThree(100, 80, 25)
+third;
+
+fucntion triple()
