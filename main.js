@@ -28,4 +28,12 @@ second;
 const third = subtractThree(100, 80, 25)
 third;
 
-fucntion triple()
+function triple(str){
+    return str + str + str;
+}
+
+const email = triple('codeimmersives');
+email;
+const best = triple('is the best');
+best;
+
